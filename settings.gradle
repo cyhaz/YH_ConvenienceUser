@@ -1,0 +1,2 @@
+rootProject.name='Convenience User'
+include ':app'
