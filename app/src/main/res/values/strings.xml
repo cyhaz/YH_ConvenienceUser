@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Convenience User</string>
+    <string name="my_store">My Store</string>
+    <string name="id">ID</string>
+    <string name="password">Password</string>
+    <string name="login">로 그 인</string>
+    <string name="sns_login">SNS로 로그인</string>
 </resources>
