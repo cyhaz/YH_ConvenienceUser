@@ -8,57 +8,12 @@
         android:orientation="vertical"
         tools:context=".ConvenienceStoreListViewActivity">
 
-        <TextView
+        <ListView
+            android:id="@+id/convenienceListView"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="@string/conveniencestore_list"
-            android:textSize="15sp"
-            android:textColor="@color/darkGray"
-            android:paddingLeft="5dp"
-            android:layout_marginBottom="5dp"
-            android:background="@color/darkWhite"/>
+            android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:paddingLeft="10dp"
-            android:orientation="horizontal">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/convenienceLogoImg"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:src="@mipmap/ic_launcher"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="15dp">
-
-                <TextView
-                    android:id="@+id/ConvenienceNameTxt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="편의점 브랜드네임"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/green"/>
-
-                <TextView
-                    android:id="@+id/headOfficeLocationTxt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="7dp"
-                    android:text="본사 위치"
-                    android:textSize="15sp"
-                    android:textColor="@color/darkGray"
-                    android:layout_marginTop="3dp"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
+        </ListView>
     </LinearLayout>
 </layout>
