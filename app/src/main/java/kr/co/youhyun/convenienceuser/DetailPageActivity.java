@@ -38,7 +38,9 @@ public class DetailPageActivity extends BaseActivity {
         binding.logoImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(mContext, LogoViewActivity.class);
+                intent.putExtra("logoUrl", store.getLogoUrl());
+                startActivity(intent);
             }
         });
 
