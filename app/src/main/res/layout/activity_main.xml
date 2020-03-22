@@ -28,8 +28,10 @@
             android:paddingRight="15dp">
 
             <EditText
+                android:id="@+id/loginIdEdt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:singleLine="true"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="40dp"
                 android:textSize="20sp"
@@ -38,8 +40,10 @@
                 android:background="@drawable/login_edittext"/>
 
             <EditText
+                android:id="@+id/loginPwEdt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:singleLine="true"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:textSize="20sp"

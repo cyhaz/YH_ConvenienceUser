@@ -5,4 +5,5 @@
     <string name="password">Password</string>
     <string name="login">로 그 인</string>
     <string name="sns_login">SNS로 로그인</string>
+    <string name="conveniencestore_list">편의점 리스트 ▼</string>
 </resources>
