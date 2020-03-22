@@ -52,7 +52,7 @@ public class ConvenienceStoreListViewActivity extends BaseActivity {
         binding.convenienceListView.setAdapter(convenienceStoreAdapter);
 
         convenienceStores.add(new ConvenienceStore("CU", "02)1111-1111","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTXhZnkuZP4eIlZAgqQse0Uicn3a5_FA9Fsvbi-CPrw5ipdz9_"));
-        convenienceStores.add(new ConvenienceStore("GS25", "02)2222-2222","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSF4YV78yIE0xtQ_p5d6qmxpD5EL8GdX_hRrZ2cIGDlaewJM610"));
+        convenienceStores.add(new ConvenienceStore("GS25", "02)2222-2222","https://image.alba.kr/job/brand/0303D002.png"));
         convenienceStores.add(new ConvenienceStore("emart24", "02)3333-3333","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQC-F_1ZZDtVNp4riwwBUIJLA5eA9U1K-7aUIBxxBqIMjzVWOvm"));
         convenienceStores.add(new ConvenienceStore("7 eleven", "02)4444-4444","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcsaKTxotxvxX8uBNpDTguLfliujs8Y8y3yOHZHfFavOqZonUq"));
         convenienceStores.add(new ConvenienceStore("MINI STOP", "02)5555-5555","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQH4SQTZppv2ahJwxI7OHZk41Cy79LKToJ519UvkZK_n_6RaLg5"));

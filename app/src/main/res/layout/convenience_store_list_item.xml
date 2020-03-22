@@ -6,17 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/white"
         tools:context=".ConvenienceStoreListViewActivity">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="@string/conveniencestore_list"
-            android:textSize="15sp"
-            android:textColor="@color/darkGray"
-            android:paddingLeft="5dp"
-            android:layout_marginBottom="5dp"
-            android:background="@color/darkWhite"/>
 
         <LinearLayout
             android:layout_width="match_parent"
