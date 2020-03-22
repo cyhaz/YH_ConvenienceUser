@@ -6,12 +6,6 @@
     <string name="login">로 그 인</string>
     <string name="sns_login">SNS로 로그인</string>
     <string name="conveniencestore_list">편의점 리스트 ▼</string>
-    <string name="cu">CU</string>
-    <string name="gs25">GS25</string>
-    <string name="emart24">emart24</string>
-    <string name="seven_eleven">7 eleven</string>
-    <string name="store_away">Store Away</string>
-    <string name="mini_stop">MINI STOP</string>
     <string name="call_center">☎ CALL CENTER</string>
     <string name="call">call</string>
 </resources>
