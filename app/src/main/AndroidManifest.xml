@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConvenienceStoreListViewActivity"></activity>
+        <activity android:name=".DetailPageActivity"></activity>
+        <activity android:name=".ConvenienceStoreListViewActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
